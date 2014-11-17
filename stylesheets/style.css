@@ -1,0 +1,238 @@
+
+body {
+	margin: 0px;
+	height: 100vh;
+	background: url(http://i.imgur.com/Qh66u8d.jpg) no-repeat center 100px fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: contain;  
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	margin-top: -17px;
+	background-color: rgba(39, 60, 63, 0.9);
+	height: 110px;
+	text-align: center;
+	font-size: 130px;
+	padding-bottom: 50px;
+	
+}
+
+#header p {
+position: relative;
+	font-family: 'Fjalla One', sans-serif;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+#menu ul li {
+	display: inline-block;
+	padding-left: 20px;
+   padding-right: 20px;
+   list-style: none;
+   margin-top: 135px; 
+   font-family: 'Graduate', cursive;
+   font-weight: 900;
+   font-size: 28px; 
+}
+
+#menu ul {
+   position: fixed; 
+   z-index: 1;
+   text-align: center;
+   width: 100%;
+   margin-left: -25px;
+  
+}
+
+#menu a {
+	color: #008B8B;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #ffb90f;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.slider {
+  position: relative;
+  width: 1500px;
+  height: 700px;
+  top:250px;
+  margin: 0px auto;
+  
+}
+
+.block{
+	background: rgba(2, 0, 6, 0.5);
+   display: none;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.active-block {
+	display: block;
+}
+
+
+.img {
+position: absolute;
+border-right: 1px solid #ddd;
+padding-right: 50px;
+height: 700px;
+}
+
+.img img { 
+height: 600px;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+}
+
+.copy {
+position: absolute;	
+}
+
+.copy h1 {
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 600px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 50px;
+	font-weight: bolder; 
+	color: #ffb90f; 
+}
+.copy p {
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 600px;
+	font-family: 'Ubuntu Condensed', sans-serif; 
+	font-size: 24px;
+	color: #ffb90f;
+}
+
+.copy ol {
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 600px;
+	font-family: 'Ubuntu Condensed', sans-serif; 
+	font-size: 24px;
+	color: #ffb90f;
+}
+
+.copy a {
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 600px;
+	font-family: 'Ubuntu Condensed', sans-serif; 
+	font-size: 35px;
+	font-weight: bolder; 
+	color: #ffb90f;
+}
+
+.copy a:hover {
+	color: #6495ed;	
+}
+
+.video {
+	position: absolute;
+	left: 740px;
+	top: 300px;
+}
+
+
+.text {
+	position: absolute;	
+}
+
+.text h1 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 50px;
+	font-weight: bolder; 
+	color: #ffb90f;
+	margin-top: 30px;
+	margin-left: 425px;	 
+}
+
+.text p {
+	font-family: 'Ubuntu Condensed', sans-serif; 
+	font-size: 24px;
+	color: #ffb90f;
+	margin-top: 435px;
+	margin-left: 200px;	 
+}
+
+.video2 {
+	position: absolute;
+	top: 100px;
+	left: 350px;	
+}
+
+.albom {
+	position: absolute;
+	border-right: 1px solid #ddd;
+	padding-right: 56.5px;
+	height: 700px;
+}
+
+.albom img {
+	margin-left: 56.5px;
+	margin-top: 140px;	
+}
+
+.slider-nav {
+	position: relative;
+	top: -175.5px;
+	width: 1500px;
+	margin: 0 auto;
+
+}
+
+.arrow-prev {
+	position: absolute;
+	left: -71px;
+	opacity: 0.5;
+}
+
+.arrow-prev:hover {
+	opacity: 1;		
+}
+
+.arrow-next {
+	position: absolute;
+	left: 1507px;
+	opacity: 0.5;	
+}
+
+.arrow-next:hover {
+	opacity: 1;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  position: absolute;
+  left: 620px;
+  top: 400px;
+}
+
+.slider-dots li {
+  opacity: 0.3;
+  display: inline;
+  font-size: 80px;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.slider-dots li.active-dot {
+  opacity: 1;
+}
+
