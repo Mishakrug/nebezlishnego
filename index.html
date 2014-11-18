@@ -3,8 +3,8 @@
 	<head>
 		
 		<link href='http://fonts.googleapis.com/css?family=Graduate|Ubuntu+Condensed|Fjalla+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-		<link type="text/css" rel="stylesheet" href="stylesheets/style.css"/>
-		<link type="text/css" rel="stylesheet" href="stylesheets/bootstrap.css"/>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link type="text/css" rel="stylesheet" href="bootstrap.css"/>
 		<title></title>
 	</head>
 	
@@ -25,6 +25,7 @@
 		</div>
 	
 	<div class="slider">
+		<div class="container">
 		<div class="block active-block">
 					<div class='img'>
 						<img src="https://pp.vk.me/c623628/v623628773/5535/34k1qDYMosY.jpg" >
@@ -34,7 +35,7 @@
 						<p>28 октября 2014 года в Санкт-Петербурге прошел концерт группы "NEBEZLISHNEGO", это было уникальное выступление.</p>
 					</div>
 					<div class='video'>
-						<iframe src="http://vk.com/video_ext.php?oid=2527&id=170402939&hash=628e45bc477f905c&hd=3" width="607" height="360" frameborder="0"></iframe>
+						<iframe src="http://vk.com/video_ext.php?oid=2527&id=170402939&hash=628e45bc477f905c&hd=3" frameborder="0"></iframe>
 					</div>	
 		</div>
 		<div class="block block-video">
@@ -66,21 +67,31 @@
 			<a href=' https://www.dropbox.com/sh/sievs541d2p2608/KjCdPLMmea'>Нахватить можно здесь</a>
 			</div>
 		</div>
-	</div>		
-		
-	<div class="slider-nav">
-		<a href='#' class='arrow-prev'><img src='http://i.imgur.com/IgiNd7V.png' height="150"/></a>
-		<a href='#' class='arrow-next'><img src='http://i.imgur.com/O61zFAx.png' height="150"/></a>
-		<ul class="slider-dots">
+		</div>
+		<div class="slider-nav">
+		<a href='#' class='arrow-prev'><img src='http://i.imgur.com/IgiNd7V.png' width="60%"/></a>
+		<a href='#' class='arrow-next'><img src='http://i.imgur.com/O61zFAx.png' width="60%"/></a>
+	<div class="slider-dots">
+		<ul >
         <li class="dot active-dot"><img src='http://i.imgur.com/TCywOmt.png' width='30'/></li>
         <li class="dot"><img src='http://i.imgur.com/TCywOmt.png' width='30'/></li>
         <li class="dot"><img src='http://i.imgur.com/TCywOmt.png' width='30'/></li>
       </ul>
+	</div>	
 	</div>
+	</div>		
+		
+	
+	<script type="text/javascript">
+	var proportion = 860/14;
+	function resizeFont() { document.body.style.fontSize = parseInt(document.body.offsetWidth/proportion) + 'px' }
+	onload = onresize = resizeFont;
+	if (document.addEventListener) document.addEventListener("DOMContentLoaded", resizeFont, null);
+	</script>
 	
 	
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-   <script src="javascripts/app.js"></script>
+   <script src="app.js"></script>
    			
 </body>
 </html>		
